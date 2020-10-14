@@ -1,0 +1,71 @@
+body {
+    background-color: #fdf5e5;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family:
+            "Calibri", "arial", "sans-serif";
+}
+
+.full-width {
+    left: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    max-width: 100vw;
+    position: relative;
+    right: 50%;
+    width: 100vw;
+}
+
+p {
+    font-size: 1em;
+}
+
+h1 {
+    font-size: 3em;
+    font-family:
+            "Calibri Light", "Calibri", "arial", "sans-serif";
+}
+
+h3 {
+    font-size: 2em;
+    text-align: center;
+}
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+* {
+    box-sizing: content-box;
+}
+
+
+.col-small {
+    width: 33%;
+    float: left;
+    padding: 1vw;
+    font-size: 1em;
+}
+.col-big {
+    width: 100%;
+    padding: 1vw;
+    padding-bottom: 50px;
+}
+
+.padding-small {
+     padding-bottom: 50px;
+}
+
+.padding-big {
+    padding-bottom: 200px;
+}
+
+
+
+
+
+

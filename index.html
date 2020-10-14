@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS/stylesheet-one.css">
+    <title>Mountminds Signup Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div>
+        <h1>Mountminds</h1>
+    </div>
+
+    <picture>
+        <img src="images/fjelltopp_1920.png" alt="Mountain View" class="full-width">
+    </picture>
+<div class="col-big">
+    <div class="col-small">
+        <h2>Mind</h2>
+        <p>Suspendisse sit amet quam in tortor malesuada accumsan sed quis lectus.
+            Morbi ac facilisis leo, id pellentesque nibh.
+            Donec ultricies ligula at est cursus pretium. Interdum et malesuada fames ac.</p>
+    </div>
+
+    <div class="col-small">
+        <h2>Mountain</h2>
+        <p>Nam venenatis dapibus magna, vel hendrerit justo dictum quis. Nam ultrices ligula in imperdiet luctus.
+            Pellentesque ullamcorper risus ut neque tincidunt vehicula.
+            Integer rutrum nunc lacus, a auctor orci dapibus.</p>
+    </div>
+
+    <div class="col-big">
+        <h2>Work</h2>
+        <p>Donec malesuada arcu dui, in blandit leo euismod non. Sed eleifend suscipit elit. Proin et condimentum urna.
+            'Morbi semper sapien ut euismod vulputate. Nullam erat ex, semper ut efficitur sed.</p>
+    </div>
+</div>
+
+
+    <h3 class="padding-small">Climb Your Mind</h3>
+
+    <form style="text-align:center" class="padding-big">
+        <label for="epost">Signup with e-mail:</label>
+        <input type="text" id="epost" name="epost">
+        <input type="submit" value="Submit">
+    </form>
+
+
+</body>
+</html>
